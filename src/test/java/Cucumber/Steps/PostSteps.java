@@ -17,6 +17,7 @@ public class PostSteps {
     @When("I type the message in the box")
     public void iTypeTheMessageInTheBox() {
         System.out.println("iTypeTheMessageInTheBox");
+        System.out.println("I am a guy");
     }
 
     @And("I click on the post button")
